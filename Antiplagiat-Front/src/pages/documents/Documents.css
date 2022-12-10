@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+[class^="box-"] {
+    /* Размещаем контейнеры по центру */
+    display: grid;
+    place-items: center;
+}
+.cont {
+    display: grid;
+    gap: 100px;
+    border: 5px;
+    grid-template-columns: repeat(5, 200px);
+    grid-template-rows:100px;
+    grid-template-areas:
+    "Название Дата_загрузки Оригинальность Скачать Удалить";
+    column-gap:  50px;
+    row-gap:  50px;
+    justify-items : start;
+    align-items: center;
+    align-content : center;
+}
+.box-1{
+    grid-area: Название;
+}
+.box-2{
+    grid-area: Дата_загрузки;
+}
+.box-3{
+    grid-area: Оригинальность;
+}
+.box-4{
+    grid-area: Скачать;
+}
+.box-5{
+    grid-area: Удалить;
+}
+.Documents-header {
+    background: rgba(0, 0, 0, 0.2);
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between ;
+    padding-left: 30px;
+    color: white;
+}
+.size{
+    width: 20px;
+    width: 100px;
+}
+.add{
+    display: flex;
+    width: 1349px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+}
+.table-place{
+    width: 1359px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media(max-width:1349px){
+    body{
+        width: max-content;
+    }
+    div{
+        width: 1300px;
+        padding-left: 50px;
+    }
+}
+

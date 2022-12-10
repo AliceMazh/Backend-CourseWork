@@ -1,0 +1,110 @@
+.App-header{
+  background: rgba(0, 0, 0, 0.2);
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-between ;
+  padding-left: 30px;
+  color: white;
+}
+.he{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.WhatAndWhy{
+  width: 1349px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.What{
+  width: 540px;
+  display: flex;
+  padding-bottom: 66px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.palka{
+  width: 300px;
+  height: 0px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.Why{
+  width: 530px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Work{
+  width: 1349px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.Blocks{
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+.Loading{
+  width: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.Search{
+  width: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.Analysis{
+  width: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.Result{
+  width: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.picture{
+  width: 150px;
+  height: 150px;
+  border: 1px solid #073742;
+  border-radius: 100px;
+  background: #073742;
+}
+.Buttom{
+  width: 150px;
+  height: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.a{
+  height: 30px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+@media(max-width:1349px){
+  body{
+    width: max-content;
+  }
+  div{
+    width: 1300px;
+    padding-left: 50px;
+  }
+}

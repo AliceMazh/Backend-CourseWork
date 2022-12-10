@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.documents-header {
+  background: rgba(0, 0, 0, 0.2);
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  padding: 0px 15px;
+
+}
+
+main {
+  display: grid;
+  justify-content: center;
+}
+
+.size {
+  width: 20px;
+  width: 100px;
+}
+
+.add {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+table {
+  border-collapse: collapse;
+
+  td {
+    padding: 5px 15px;
+    text-align: center;
+    border: 1px gray solid;
+
+  }
+
+
+  thead > * {
+    font-weight: 800;
+  }
+}
+
+.actions-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+  & > * {
+    cursor: pointer;
+  }
+}
+
+/*.table{*/
+/*    width: 1359px;*/
+/*    border:5px;*/
+/*    bordercolor:black;*/
+/*    cellpadding:5px;*/
+/*    cellspacing:5px;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    cols:10;*/
+/*}*/
+
